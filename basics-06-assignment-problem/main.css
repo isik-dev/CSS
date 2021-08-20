@@ -1,0 +1,19 @@
+.second-li code {
+  color: green;
+}
+
+#assignment-instructions {
+  color: red;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+body li {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
