@@ -1,9 +1,15 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 #product-overview {
   background: #ff1b68;
+  padding: 20px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: 20px;
 }
 
 .section-title {
