@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-elemets > div {
+  display: inline-block;
+}
+
+.main-elemets div {
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 40%;
+}
+
+.main-div {
+  display: none;
+}
+
+.main-div2:hover {
+  background-color: white;
+}
