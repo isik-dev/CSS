@@ -10,8 +10,11 @@ body {
 .main-header {
   background-color: #2ddf5c;
   position: fixed;
+  top: 0;
+  left: 0;
   padding: 8px 16px;
   width: 100%;
+  z-index: 1;
 }
 
 .main-header > div {
