@@ -27,3 +27,14 @@ a.active {
 .highlighted {
   border: 2px solid #fa923f;
 }
+
+.heading1 + .heading1-div {
+  color: white;
+  background-color: black;
+}
+
+.heading1-div > p {
+  font-family: sans-serif;
+  padding: 2px;
+  color: yellow;
+}
