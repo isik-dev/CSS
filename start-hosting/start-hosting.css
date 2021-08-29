@@ -24,10 +24,6 @@ main {
   width: 100%;
 }
 
-.signup-form input.invalid,
-.signup-form select.invalid {
-}
-
 /* .signup-form input[type="checkbox"]  */
 .signup-form input[id*="terms"],
 .signup-form input[id*="terms"] + label {
@@ -75,4 +71,11 @@ main {
     margin: auto;
     width: 25rem;
   }
+}
+
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+  border-color: red !important;
+  background-color: rgb(236, 141, 141);
 }
