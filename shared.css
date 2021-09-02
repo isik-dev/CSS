@@ -127,10 +127,6 @@ main {
   }
 
   .main-nav {
-    /* display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle; */
     display: flex;
   }
 }
@@ -231,5 +227,10 @@ main {
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
+  }
+  .main-footer__links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
